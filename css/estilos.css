@@ -1,0 +1,69 @@
+
+body{
+    background-color: rgba(32, 32, 32, 1);
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+/*Header*/
+.navegacion{
+    display: none;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.icon__ww{
+
+position: absolute;
+width: 46px;
+height: 55px;
+left: 30px;
+top: 9px;
+
+border-radius: 1px;
+}
+.menu__movil{
+
+position: absolute;
+width: 36px;
+height: 36px;
+right: 30px;
+top: 18px;
+
+}
+.circulo{
+    margin-top: 7rem;
+}
+.circulo img{
+    position: relative;
+
+    margin: auto
+}
+.titulo{
+    /* Titulo-White-Wolf */
+    position: absolute;
+
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+}
+.texto{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    
+    color: #FFFFFF;
+}
